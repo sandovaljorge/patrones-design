@@ -12,7 +12,7 @@ public class TestAbstractFactory {
     public static void main(String[] args) {
         EnemyAbstractFactory factory = new WarriorFactory();
         Enemy warrior = factory.createEnemy();
-        Armor heavyA.rmor = factory.createArmor();
+        Armor heavyArmor = factory.createArmor();
         Weapon axe = factory.createWeapon();
 
         warrior.attack();

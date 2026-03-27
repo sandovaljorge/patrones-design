@@ -1,4 +1,4 @@
-package org.jscode.bridge.fighter;
+package org.jscode.structural.bridge.fighter;
 
 public interface Fighter {
 

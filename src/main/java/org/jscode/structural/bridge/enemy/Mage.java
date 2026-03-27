@@ -1,13 +1,13 @@
-package org.jscode.bridge.enemy;
+package org.jscode.structural.bridge.enemy;
 
-import org.jscode.bridge.fighter.Fighter;
-import org.jscode.bridge.fighter.WarriorFighterImpl;
+import org.jscode.structural.bridge.fighter.Fighter;
+import org.jscode.structural.bridge.fighter.MageFighterImpl;
 
-public class Warrior extends Enemy {
+public class Mage extends Enemy {
 
 
-    public Warrior() {
-        setFighter(new WarriorFighterImpl());
+    public Mage() {
+        setFighter(new MageFighterImpl());
     }
 
     @Override
@@ -20,13 +20,14 @@ public class Warrior extends Enemy {
         return super.setHealth(health);
     }
 
+
     public void attack() {
-        System.out.println("Warrior: ");
+        System.out.println("Mage: ");
         getFighter().attack();
     }
 
     public void protect() {
-        System.out.println("Warrior: ");
+        System.out.println("Mage: ");
         getFighter().protect();
     }
 

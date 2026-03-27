@@ -1,4 +1,4 @@
-package org.jscode.adapter;
+package org.jscode.structural.adapter;
 
 public class Warrior implements Enemy{
 

@@ -1,9 +1,9 @@
-package org.jscode.bridge;
+package org.jscode.structural.bridge;
 
-import org.jscode.bridge.enemy.Mage;
-import org.jscode.bridge.enemy.Warrior;
-import org.jscode.bridge.fighter.MageFighterImpl;
-import org.jscode.bridge.fighter.WarriorFighterImpl;
+import org.jscode.structural.bridge.enemy.Mage;
+import org.jscode.structural.bridge.enemy.Warrior;
+import org.jscode.structural.bridge.fighter.MageFighterImpl;
+import org.jscode.structural.bridge.fighter.WarriorFighterImpl;
 
 public class TestBridge {
 

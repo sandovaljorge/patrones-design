@@ -1,6 +1,6 @@
-package org.jscode.bridge.enemy;
+package org.jscode.structural.bridge.enemy;
 
-import org.jscode.bridge.fighter.Fighter;
+import org.jscode.structural.bridge.fighter.Fighter;
 
 public abstract class Enemy {
 
